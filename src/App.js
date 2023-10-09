@@ -88,8 +88,6 @@ function App() {
     // rebuild yesterday's full date in DD/MM/YYYY format
     yesterday = yesterday + "/" + date.substring(5,7) + "/" + date.substring(0,4)
 
-    console.log(yesterday)
-
     setYesterdaysOrders(
       ordersData.filter((order) => {
         return order.orderDate === yesterday
