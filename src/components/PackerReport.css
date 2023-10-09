@@ -1,0 +1,49 @@
+.packer-report__wrapper {
+   grid-area: packer-report;
+}
+
+.packer-report {
+   width: 100%;
+}
+
+/* list indentation */
+.packer-row__contents,
+.packer-row__boxes,
+.packer-row__box-contents,
+.packer-row__shipping-info {
+   margin-left: 1rem;
+}
+
+.packer-row__line-items-header,
+.packer-row__box-contents {
+   margin-bottom: 5px;
+}
+
+.packer-row:not(:last-of-type) {
+   margin-bottom: 1rem;
+}
+
+.packer-report__step-header {
+   margin-bottom: 0.5rem;
+}
+
+.packer-report__list-btn,
+.packer-report__step-btn {
+   width: 100%;
+}
+
+
+.packer-btn {
+   padding: 1rem;
+   margin: 1rem;
+   min-width: 100px;
+   font-size: 18px;
+}
+
+.packer-btn.next {
+   float: right;
+}
+
+.packer-btn.prev {
+   float: left;
+}

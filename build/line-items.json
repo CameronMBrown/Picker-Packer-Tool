@@ -1,0 +1,63 @@
+[
+   {
+      "name": "Valentines Box",
+      "productID": "001",
+      "productPrice": 75,
+      "products": [
+         {
+            "name": "Red Roses Bouquet",
+            "productID": "011"
+         },
+         {
+            "name": "Box of chocolates",
+            "productID": "012"
+         },
+         {
+            "name": "Love card",
+            "productID": "013"
+         },
+         {
+            "name": "Women's perfume",
+            "productID": "014"
+         }
+      ]
+   },
+   {
+      "name": "Birthday Box",
+      "productID": "002",
+      "productPrice": 115,
+      "products": [
+         {
+            "name": "Birthday cupcake",
+            "productID": "015"
+         },
+         {
+            "name": "$100 Visa Gift Card",
+            "productID": "016"
+         },
+         {
+            "name": "Birthday card",
+            "productID": "017"
+         }
+      ]
+   },
+   {
+      "name": "Client Gift Box",
+      "productID": "003",
+      "productPrice": 50,
+      "products": [
+         {
+            "name": "Bottle of wine",
+            "productID": "018"
+         },
+         {
+            "name": "Fruit basket",
+            "productID": "019"
+         },
+         {
+            "name": "Pen",
+            "productID": "01A"
+         }
+      ]
+   }
+]

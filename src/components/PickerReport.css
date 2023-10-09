@@ -1,0 +1,23 @@
+input[type="checkbox"] {
+   margin-right: 10px;
+}
+
+.picker-report__wrapper {
+   grid-area: picker-report;
+}
+
+.picker-report {
+   width: 100%;
+}
+
+.picker-row {
+   margin-bottom: 2px;
+}
+
+.picker-row:nth-of-type(even) {
+   background-color: #ebebeb;
+}
+
+.picker-row span {
+   margin-right: 5px;
+}

@@ -1,0 +1,39 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app-container {
+    margin: 1rem auto;
+}
+
+.ui-wrapper {
+    display: grid;
+    padding: 3rem;
+    grid-template-areas: 
+        "date-picker"
+        "ui-divider"
+        "report-title"
+        "picker-report"
+        "packer-report";
+}
+
+.title-container {
+    margin: 0 3rem;
+}
+
+.title-text {
+    margin-bottom: 1rem
+}
+
+.subtitle-text {
+    margin: 0 1rem;
+}
+
+.report-title {
+    grid-area: report-title;
+}

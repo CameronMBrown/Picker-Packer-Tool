@@ -1,0 +1,30 @@
+.date-picker-wrapper {
+   grid-area: date-picker;
+   display: flex;
+   align-items: center;
+   margin: 0 1rem 1rem 1rem; 
+}
+
+input[type="date"].order-date-picker {
+   background-color: #ebebeb;
+   padding: 15px;
+   font-family: "Roboto Mono",monospace;
+   color: black;
+   font-size: 18px;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   max-width: 200px;
+   margin: 0 1rem;
+}
+::-webkit-calendar-picker-indicator{
+   background-color: #ffffff;
+   padding: 5px;
+   cursor: pointer;
+   border-radius: 3px;
+}
+
+.ui-divider {
+   margin-bottom: 1rem;
+   grid-area: ui-divider;
+}
