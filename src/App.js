@@ -12,8 +12,6 @@ import PackerReport from "./components/PackerReport";
 // utils
 import { getLastDayOfPrevMonth } from "./utils";
 
-// TODO: handle months other than september - remember end of month edge case
-
 function App() {
   const [ ordersData, setOrdersData ] = useState(null)
   const [ lineItemsData, setLineItemsData ] = useState(null)
@@ -75,7 +73,6 @@ function App() {
    */
   const getYesterdaysOrders = ( date ) => {
     console.log("recalculating yesterdays orders")
-    console.log(date)
     // get the day, cast to int, subtract 1, convert back to string
     let yesterday = (parseInt(date.substring(8)) - 1).toString()
 
